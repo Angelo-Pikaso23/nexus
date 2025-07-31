@@ -1,14 +1,24 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
+	"version": "1.0.0",
+	"description": "curso",
+	"homepage": "https://github.com/freeCodeCamp/boilerplate-npm#readme",
+	"bugs": {
+		"url": "https://github.com/freeCodeCamp/boilerplate-npm/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/freeCodeCamp/boilerplate-npm.git"
+	},
+	"license": "ISC",
+	"author": "NEXUS",
+	"type": "commonjs",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"keywords": []
 }
